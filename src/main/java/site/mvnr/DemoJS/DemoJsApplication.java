@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RestController
 public class DemoJsApplication {
 
-    @GetMapping("/")
+    @RequestMapping(value="/")
 	public String home (){
 
 		return "Welcome To JS...!";
